@@ -6,6 +6,10 @@
     "packages/*"
   ],
   "scripts": {
+    "build": "lerna run build",
     "website": "yarn workspace @chakra-ui/pro-website"
+  },
+  "devDependencies": {
+    "lerna": "3.22.1"
   }
 }
